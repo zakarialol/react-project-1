@@ -1,8 +1,11 @@
-@tailwind base ;
-@tailwind components ;
-@tailwind utilities ;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 @layer components{
+    .btnHolder{
+        @apply flex justify-between text-2xl font-bold
+    }
 }
 @layer utilities{
     .bg-gradient{

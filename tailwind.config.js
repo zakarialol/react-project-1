@@ -2,7 +2,11 @@
 export default {
   content: ["./src/components/*.jsx","*.html","./src/*.jsx"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+        poppins:["Poppins","sans-serif"]
+      }
+    },
   },
   plugins: [],
 }
